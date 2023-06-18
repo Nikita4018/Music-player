@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Own your music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.webp" alt="logo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="SongList">
+            <h1>Best of Indie pop !!</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover.jpg" alt="1">
+                    <span class="songName">Brown Munde</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="1"
+                                class=  "fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="1.jpg" alt="1">
+                    <span class="songName">Money Trees</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="2"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="2.jpg" alt="1">
+                    <span class="songName">Understand</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="3"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="3.jpg" alt="1">
+                    <span class="songName">Sad Girl</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="4"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="4.jpg" alt="1">
+                    <span class="songName">Bored</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="5"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="5.jpg" alt="1">
+                    <span class="songName">Wicked Games</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="6"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="6.jpg" alt="1">
+                    <span class="songName">Pretty When You Cry</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="7"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+            <div>
+                <div class="songItem">
+                    <img src="7.jpg" alt="1">
+                    <span class="songName">Party Monster</span>
+                    <span class="songListPlay"><span class="timestamp">02:30 <i id="8"
+                                class="fa songItemPlay fa3x-thin fa-circle-play"></i></span> </i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="SongBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" class="range" id="myProgressBar" value = "0" min="0" max="100">
+        <div class="icon">
+            <!-- fontawesome icon -->
+            <pre>
+        <i class="fa fa50x-solid fa-backward" id="previous"> </i>  <i class="fa fa50x-thin fa-circle-play" id="masterPlay" ></i>  <i class="fa fa50x-solid fa-forward" id="next" ></i> </pre>
+     </div>
+     <div class="songInfo">
+        <img src="playing.gif" alt="" id="gif"> <span id="masterSongName">Party Monster</span>
+     </div>
+    </div>
+    <script src="https://kit.fontawesome.com/804ac8062e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
